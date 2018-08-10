@@ -6,13 +6,10 @@
     <input type="submit" value="send">
 </form>
 <?php
-s$a=$_POST['a'];
+$a=$_POST['a'];
 if (($a%4)==0 and !($a%100)==0) echo "YES))";
 elseif (($a%400)==0 ) echo "YES";
-
 else echo "<br/>NO ";
-
-
 ?>
 </body>
 </html>
