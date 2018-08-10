@@ -1,10 +1,10 @@
 <?php
-$si=$_POST['si'];
-$no=$_POST['no'];
-$wow=$_POST['ha'];
-var_dump($si);
-var_dump($no);
-var_dump($wow);
+//$si=$_POST['si'];
+//$no=$_POST['no'];
+//$wow=$_POST['ha'];
+//var_dump($si);
+//var_dump($no);
+//var_dump($wow);
 echo '<br>'."<br>";
 if (isset($si)) {$num=8; echo $num;};
 if (isset($no)) {$num=3; echo $num;};

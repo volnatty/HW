@@ -1,10 +1,10 @@
 s<?php
-$si=$_POST['si'];
-$no=$_POST['no'];
-$wow=$_POST['ha'];
-var_dump($si);
-var_dump($no);
-var_dump($wow);
+//$si=$_POST['si'];
+//$no=$_POST['no'];
+//$wow=$_POST['ha'];
+//var_dump($si);
+//var_dump($no);
+//var_dump($wow);
 echo '<br>'."<br>";
 if (isset($si)) {echo "it is 4";};
 if (isset($no)) {echo "it is 1 (or to - does'n matter)))";};
