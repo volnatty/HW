@@ -1,23 +1,13 @@
-s<?php
-//$si=$_POST['si'];
-//$no=$_POST['no'];
-//$wow=$_POST['ha'];
+<?php
+$si=$_POST['si8'];
+$no=$_POST['no8'];
+$wow=$_POST['ha8'];
 //var_dump($si);
 //var_dump($no);
 //var_dump($wow);
 echo '<br>'."<br>";
-if (isset($si)) {echo "it is 4";};
-if (isset($no)) {echo "it is 1 (or to - does'n matter)))";};
-if (isset($wow)) echo "GOT IT!!!";
+if (isset($si)) {echo "GOT IT - 9!";};
+if (isset($no)) {echo "it is 7 (or 6 - doesn't matter))) i'm too lazy to write one more cycle.";};
+if (isset($wow)) echo "GOT IT!!! 8)))";
 
 ?>
-<html>
-<body>
-<form method="POST" action="hw83.php">
-    YES:<input type="checkbox" name="si">
-    NO:<input type="checkbox" name="no">
-    I loose (((( - it's   :<input type="checkbox" name="ha">
-    <input type="submit" name="check">
-</form>
-</body>
-</html>
