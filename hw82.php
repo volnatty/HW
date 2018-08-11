@@ -22,7 +22,6 @@ if (isset($si)) {$num=8; echo '<br>'.'<br>';
 </body>
 </html>
 <?php
-    if (isset($_POST['si8'])) echo "easy - it's 9";
 };
 if (isset($no)) {$num=3; echo '<br>'.'<br>';
     echo "Wow, playing again....".'<br>'.'<br>';
